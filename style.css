@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:conic-gradient(from 90deg at 25% -10%, #ff4500, #d3f340, #7bee85, #afeeee, #7bee85);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items:  flex-start;
+}
+.container{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.groceries{
+    margin-top: 10px;
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.8),-5px 0px 10px rgba(0,0,0,0.8);
+}
+.groceries h1{
+    margin: 20px;
+    font-size: 4rem;
+    text-decoration: underline;
+}
+.userInput{
+    font-size: 3rem;
+    margin: 10px;
+}
+#pencil{
+    cursor: pointer;
+    color: #ff4500;
+    /* text-decoration: line-through; */
+}
+#userInput{
+    width: 70%;
+    height: 10vh;
+    border: 0;
+    outline: 0;
+    font-size: 3rem;
+    /* border-radius: 10px; */
+    border-bottom: 3px solid black;
+    background: transparent;
+    /* text-decoration: underline; */
+}
+ h2{
+    font-style: italic;
+    font-size: 3.5rem;
+    margin-top: 20px;
+    margin-right:40vw;
+    cursor: pointer;
+}
